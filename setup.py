@@ -26,6 +26,7 @@ setup(
     packages=find_packages(include=['configureserverdebian',
                                     'configureserverdebian.*']),
     install_requires=[
+        'toml==0.10.0'
     ],
     python_requires='>=3.7',
     zip_safe=False,
